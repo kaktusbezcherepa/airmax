@@ -1,0 +1,58 @@
+.card {
+    padding: 20px 30px; 
+    color: white; 
+    background-color: #263238; 
+  }
+
+  /* Стили шапки */
+  .card header {
+    margin-bottom: 20px;
+  }
+
+  .card header button {
+    border: none; 
+    padding: 0; 
+    border-radius: 50%; 
+    width: 11px; 
+    height: 11px;
+    margin-right: 5px;
+  }
+
+  .card header button:nth-child(1) {
+    background-color: #ff5f56;
+  }
+
+  .card header button:nth-child(2) {
+    background-color: #ffbd2e; 
+  }
+
+  .card header button:nth-child(3) {
+    background-color: #27c93f; 
+  }
+  
+ 
+  
+  pre {
+    margin: 0; 
+  }
+
+  
+  code {
+    font-size: 18px; 
+    line-height: 1.5; 
+    font-family: 'JetBrains Mono', monospace; /
+  }
+
+ 
+  code span.tag {
+    color: #ff5370; 
+  }
+
+  code span.attribute {
+    color: #ffcb6b; 
+  }
+
+  code span.attribute-value {
+    color: #c3e88d; 
+  }
+ 
